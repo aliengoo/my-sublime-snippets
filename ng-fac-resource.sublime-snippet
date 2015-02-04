@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').factory('$2', $2});
+
+$2.\$inject = ['\$resource'];
+
+function $2(\$resource){
+	return \$resource('$3/:id', {
+		id : '@id'
+	}, {$0});
+}
+]]></content>
+	<tabTrigger>ng-fac-resource</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

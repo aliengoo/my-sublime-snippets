@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$scope.\$watch('$1', function(n, o){
+	$0
+});
+]]></content>
+	<tabTrigger>ng-scope-watch</tabTrigger>
+	<scope>source.js</scope>
+	<description>Watch scope variable</description>
+</snippet>

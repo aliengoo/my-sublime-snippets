@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').controller('$2', $2});
+
+function ${2:controller}(){
+	$0
+}
+]]></content>
+	<tabTrigger>ng-ctrl</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

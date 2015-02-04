@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{
+	"directory" : "bower"
+}
+]]></content>
+	<tabTrigger>bowerrc</tabTrigger>
+	<scope>text.plain</scope>
+	
+</snippet>

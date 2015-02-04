@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').config(config);
+
+config.\$inject = ['\$stateProvider'];
+
+function config(\$stateProvider){
+	\$stateProvider.$0
+}
+]]></content>
+	<tabTrigger>ng-config-stateprovider</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

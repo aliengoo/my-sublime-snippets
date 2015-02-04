@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').run(run);
+
+function run(){
+	$0
+}
+]]></content>
+	<tabTrigger>ng-run</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

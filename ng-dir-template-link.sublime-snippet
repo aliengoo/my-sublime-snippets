@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').directive('$2', $2});
+
+function $2(){
+	var exports = {
+		restrict : '${3:A}',
+		transclude : ${4:false},
+		template : template,
+		link : link
+	};
+
+	return exports;
+
+	//////////////
+	function template(element, attribute){
+		$0
+	}
+
+	function link(scope, element, attribute){
+
+	}
+}
+]]></content>
+	<tabTrigger>ng-dir-template-link</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

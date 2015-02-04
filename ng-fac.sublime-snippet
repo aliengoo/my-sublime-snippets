@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').factory('$2', $2});
+
+function $2(){
+	var exports = {
+		
+	};
+
+	return exports;
+
+	//////////////
+	$0
+}
+]]></content>
+	<tabTrigger>ng-fac</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
